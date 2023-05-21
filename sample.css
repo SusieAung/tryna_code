@@ -1,0 +1,63 @@
+.displayWeatherCondition {
+  margin: 20px;
+  padding: 20px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 200, 124) 0.1%,
+    rgb(252, 251, 121) 90%
+  );
+}
+
+.temperature {
+  font-size: 55px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.location {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.date {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cloudy {
+  position: relative;
+  right: -875px;
+  top: -100px;
+  font-size: 90px;
+  color: #272343;
+}
+
+.li {
+  font: bold;
+  font-size: 25px;
+  list-style: none;
+  line-height: 1;
+  height: 20px;
+  right: -990px;
+  position: relative;
+}
+
+.row {
+  margin-left: 90px;
+}
+
+.sun1,
+.sun2,
+.sun3,
+.sun4,
+.rain {
+  color: #272343;
+}
+
+.days,
+.temp {
+  color: #272343;
+}
